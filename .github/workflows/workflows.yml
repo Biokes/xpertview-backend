@@ -53,3 +53,4 @@ jobs:
             sudo docker pull biokes/xpertview:latest
             sudo docker run -d -p 9090:8081 biokes/xpertview:latest
           EOF
+#          lad
