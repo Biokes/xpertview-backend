@@ -1,4 +1,4 @@
-FROM maven:3.8.4-openjdk-17:latest as xpertview_build
+FROM maven:3.8.7 as xpertview_build
 COPY . .
 RUN mvn clean package -DSkipTests
 
